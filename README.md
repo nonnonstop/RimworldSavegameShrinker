@@ -98,6 +98,12 @@ marginal space savings and speed increases for Rimworld v1.2 and v1.3.
 
 ## Change Log
 
+**v1.1.0: 2023-03-14**
+
+* **[2024-03-14 19:25:36 CDT]** Upgraded to Rimworld v1.5.
+* **[2024-03-14 19:08:55 CDT]** Moved to the new BetterRimworld's build and deploy system.
+* **[2023-05-22 02:49:52 CDT]** Added a complete description of removed things.
+
 **v1.0.0: 2023-05-21**
 
 * **[2023-05-21 04:47:11 CDT]** All of the initial work. 
