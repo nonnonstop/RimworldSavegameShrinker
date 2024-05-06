@@ -37,29 +37,16 @@ namespace BetterRimworlds.SavegameShrinker
             Listing_Standard listing_Standard = new Listing_Standard();
             listing_Standard.Begin(inRect);
 
-            string[] labels = {
-                "(safe) Shrink historical archives?",
-                "(safe) Shrink play log?",
-                "(safe) Shrink battle log?",
-                "(safe) Shrink automatic quests?",
-                "(safe) Remove filth?",
-                "(less safe) Shrink tales?",
-                "(less safe) Shrink unaccepted quests?",
-                "(huge savings) Shrink Dead World Pawns?",
-                "(dangerous) Shrink Mothballed World Pawns?",
-                "Print debug messages?",
-            };
-            
-            listing_Standard.CheckboxLabeled(labels[0], ref shrinkHistoricalArchives);
-            listing_Standard.CheckboxLabeled(labels[1], ref shrinkPlayLog);
-            listing_Standard.CheckboxLabeled(labels[2], ref shrinkBattleLog);
-            listing_Standard.CheckboxLabeled(labels[3], ref shrinkQuestsAutomatic);
-            listing_Standard.CheckboxLabeled(labels[4], ref removeFilth);
-            listing_Standard.CheckboxLabeled(labels[5], ref shrinkTales);
-            listing_Standard.CheckboxLabeled(labels[6], ref shrinkQuestsUnaccepted);
-            listing_Standard.CheckboxLabeled(labels[7], ref shrinkWorldPawnsDead);
-            listing_Standard.CheckboxLabeled(labels[8], ref shrinkWorldPawnsMothballed);
-            listing_Standard.CheckboxLabeled(labels[9], ref debugMode);
+            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkHistoricalArchives".Translate(), ref shrinkHistoricalArchives);
+            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkPlayLog".Translate(), ref shrinkPlayLog);
+            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkBattleLog".Translate(), ref shrinkBattleLog);
+            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkQuestsAutomatic".Translate(), ref shrinkQuestsAutomatic);
+            listing_Standard.CheckboxLabeled("SavegameShrinker.RemoveFilth".Translate(), ref removeFilth);
+            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkTales".Translate(), ref shrinkTales);
+            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkQuestsUnaccepted".Translate(), ref shrinkQuestsUnaccepted);
+            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkWorldPawnsDead".Translate(), ref shrinkWorldPawnsDead);
+            listing_Standard.CheckboxLabeled("SavegameShrinker.ShrinkWorldPawnsMothballed".Translate(), ref shrinkWorldPawnsMothballed);
+            listing_Standard.CheckboxLabeled("SavegameShrinker.DebugMode".Translate(), ref debugMode);
 
             listing_Standard.End();
         }

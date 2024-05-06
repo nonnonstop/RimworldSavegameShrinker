@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <SavegameShrinker.Shrink>Shrink ({0}MB)</SavegameShrinker.Shrink>
+    <SavegameShrinker.ShrinkHistoricalArchives>(safe) Shrink historical archives?</SavegameShrinker.ShrinkHistoricalArchives>
+    <SavegameShrinker.ShrinkPlayLog>(safe) Shrink play log?</SavegameShrinker.ShrinkPlayLog>
+    <SavegameShrinker.ShrinkBattleLog>(safe) Shrink battle log?</SavegameShrinker.ShrinkBattleLog>
+    <SavegameShrinker.ShrinkQuestsAutomatic>(safe) Shrink automatic quests?</SavegameShrinker.ShrinkQuestsAutomatic>
+    <SavegameShrinker.RemoveFilth>(safe) Remove filth?</SavegameShrinker.RemoveFilth>
+    <SavegameShrinker.ShrinkTales>(less safe) Shrink tales?</SavegameShrinker.ShrinkTales>
+    <SavegameShrinker.ShrinkQuestsUnaccepted>(less safe) Shrink unaccepted quests?</SavegameShrinker.ShrinkQuestsUnaccepted>
+    <SavegameShrinker.ShrinkWorldPawnsDead>(huge savings) Shrink Dead World Pawns?</SavegameShrinker.ShrinkWorldPawnsDead>
+    <SavegameShrinker.ShrinkWorldPawnsMothballed>(dangerous) Shrink Mothballed World Pawns?</SavegameShrinker.ShrinkWorldPawnsMothballed>
+    <SavegameShrinker.DebugMode>Print debug messages?</SavegameShrinker.DebugMode>
+</LanguageData>

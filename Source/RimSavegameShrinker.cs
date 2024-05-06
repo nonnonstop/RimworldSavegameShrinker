@@ -58,7 +58,7 @@ namespace BetterRimworlds.SavegameShrinker
 
             var shrinker = new SaveGameShrinker(settings);
 
-            if (Widgets.ButtonText(TargetRect, $"Shrink ({fileSize}MB)"))
+            if (Widgets.ButtonText(TargetRect, "SavegameShrinker.Shrink".Translate(fileSize.ToString())))
             {
                 string shortFileName = sfi.FileInfo.Name;
                 Log.Error($"++++++++++ Shrinking SaveGame {shortFileName} +++++++");
